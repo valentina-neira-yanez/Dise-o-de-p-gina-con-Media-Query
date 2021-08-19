@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: white;
+}
+header, .main{
+    width:110%;
+    margin: 0px 0px;
+    max-width: 1000px;
+}
+header nav{
+    background: black;
+    overflow: hidden;   
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: right;
+}
+header nav ul li a{  
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0px 20px;
+    font-family: monospace;
+    font-size: 20px; 
+}
+header nav ul li a:hover{
+    background: red;
+    color: white;
+}
+.main{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-inline-end: 70px;
+    float:right;  
+    width: 60%;
+    padding-top: 150px;  
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.logo{
+    float: right;
+    max-width: 100%;
+}
+.navegation{
+    position: relative;
+    width: 1024px;
+    max-width: 1002px;
+    min-width: 100%;
+   
+}
+.menu{
+    position: absolute;
+    bottom: 0;
+}
+.modelo{
+    width:90%;
+    margin: 11px;
+    max-width: 1000px;
+}
+.p .modelo{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+    
+}
+
+.imagen{
+    margin-right: 13%;
+}
+
+footer{
+    margin-left: 100px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 1024px){
+    .main, footer, .p, h2{
+        margin-left: 5%;
+        margin-right: 20px;
+        color: black;
+        max-width: 1000%;
+    }
+    .imagen img{
+        width: 95vw;  
+
+    }
+    .logo{
+        max-width: 1024px;
+        margin-right: 140px;
+    }
+    header{
+        margin-left: 0%;
+        max-width: 1200%;
+        width: 100%;
+    }
+    .stretch{
+        width: 100%;
+        height: 100%;
+    }
+}
